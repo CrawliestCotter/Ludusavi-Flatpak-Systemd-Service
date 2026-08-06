@@ -1,4 +1,4 @@
-Copy this file to ~/.config/systemd/user
+Copy ludusavi-flatpak.service to ~/.config/systemd/user folder
 
 Run: 
 ~/.config/systemd/user
