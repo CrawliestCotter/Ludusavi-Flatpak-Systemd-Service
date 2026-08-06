@@ -1,0 +1,11 @@
+[Unit]
+Description=Ludusavi Flatpak Backup
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=300s
+ExecStart=flatpak run com.github.mtkennerly.ludusavi backup --force
+
+[Install]
+WantedBy=default.target
