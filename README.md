@@ -6,7 +6,8 @@ Edit the `RestartSec=300s` line to adjust frequency.
 
 ### Setup:
 Create a folder called ~/.service
-Copy ludusavi-flatpak.service to ~/.services folder
+
+and copy ludusavi-flatpak.service to ~/.services folder
 
 Then run: 
 ```
